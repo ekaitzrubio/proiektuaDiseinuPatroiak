@@ -29,7 +29,7 @@ public class ExtendedIteratorSales implements ExtendedIterator<Sale> {
 
     @Override
     public boolean hasPrevious() {
-        return currentIndex >= 0 && currentIndex < sales.size();
+        return currentIndex >= 0;
     }
 
     @Override
