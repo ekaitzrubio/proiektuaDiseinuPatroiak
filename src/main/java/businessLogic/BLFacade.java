@@ -135,4 +135,6 @@ public interface BLFacade  {
 	   public List<Review> getReviewsBySeller(String email);
 	   @WebMethod
 	   public String getSellerEmailBySale(Integer saleId);
+	   @WebMethod
+	   public ExtendedIterator<Sale> getSalesIterator(String desc);
 }
